@@ -36,13 +36,17 @@ Telas grandes: acima de 1200px
         width: 990px;
     }
     section#login> div#imagem{
-        float: left;
-        width: 50%;
-        height: 100%;
-        border-radius: 20px 0px 0px 20px;
-    }
-    section#login > div#formulario{
         float: right;
         width: 50%;
+        height: 100%;
+        border-radius: 0px 20px 20px 0px;
     }
+    section#login > div#formulario{
+        float: left;
+        width: 50%;
+    }
+    
+div#formulario > p{
+    font-size: 1.2em;
+}
 }
