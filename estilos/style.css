@@ -24,6 +24,8 @@ main{
     position: relative;
 }
 section#login{
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease;
     position: absolute;
     top: 50%;
     left: 50%;
